@@ -172,32 +172,32 @@ class _ScreenLoginState extends State<ScreenLogin> {
               ),
             ),
             Positioned(
-  bottom: 16.0,
-  right: 16.0,
-  child: Container(
-    decoration: BoxDecoration(
-      shape: BoxShape.circle,
-      gradient: LinearGradient(
-        colors: [Color(0xFFBED8D4),
-              Color(0xFF007EA7),],
-        begin: Alignment.topLeft,
-        end: Alignment.bottomRight,
-      ),
-    ),
-    child: FloatingActionButton(
-      onPressed: () {
-        // Acción al presionar el botón de emergencia
-      },
-      backgroundColor: Colors.transparent, // Fondo transparente para que se vea el degradado
-      elevation: 0, // Sin sombra
-      shape: CircleBorder(),
-      child: Icon(
-        Icons.phone,
-        color: Colors.white,
-      ),
-    ),
-  ),
-),
+              bottom: 16.0,
+              right: 16.0,
+              child: Container(
+                decoration: BoxDecoration(
+                  shape: BoxShape.circle,
+                  gradient: LinearGradient(
+                    colors: [Color(0xFFBED8D4),
+                          Color(0xFF007EA7),],
+                    begin: Alignment.topLeft,
+                    end: Alignment.bottomRight,
+                  ),
+                ),
+                child: FloatingActionButton(
+                  onPressed: () {
+                    // Acción al presionar el botón de emergencia
+                  },
+                  backgroundColor: Colors.transparent, // Fondo transparente para que se vea el degradado
+                  elevation: 0, // Sin sombra
+                  shape: CircleBorder(),
+                  child: Icon(
+                    Icons.phone,
+                    color: Colors.white,
+                  ),
+                ),
+              ),
+            ),
           ],
         ),
       ),

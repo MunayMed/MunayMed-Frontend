@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:munaymed_frontend/screens/screen-login.dart';
+import 'package:munaymed_frontend/screens/screen-register.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: ScreenLogin(),
+      home: ScreenRegister(),
       
     );
   }
